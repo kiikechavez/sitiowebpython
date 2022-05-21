@@ -1,4 +1,6 @@
 #Creado por Enrique Vergara
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 from distutils.log import debug
 from flask import Flask, render_template
 
@@ -12,6 +14,6 @@ def home():
 def about():
     return render_template('about.html')
 
+
 if __name__ == '__main__':
     app.run(debug=True)
-    #app.run(host='0.0.0.0', port=5000)
