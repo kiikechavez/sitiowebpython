@@ -20,3 +20,15 @@ h1 {
     weight: 70px;
     height: 70px;
 }
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover {
+    transform: scale(1.5);
+}
+
+.fab:hover{
+    color: blue;
+}
